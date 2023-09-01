@@ -1,0 +1,16 @@
+{
+  "name": "jcr-automecanica",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start:dev": "cd packages/server && yarn start"
+  },
+  "author": "Luis Eduardo Hoshina <duhoshina@gmail.com>",
+  "license": "MIT"
+}
